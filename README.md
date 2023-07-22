@@ -44,8 +44,6 @@ Terraform Modules are a powerful feature that allows you to create reusable and 
 │       ├── outputs.tf
 │       └── variables.tf
 ├── provider.tf
-├── terraform.tfstate
-├── terraform.tfstate.backup
 └── variables.tf
 ```
 
