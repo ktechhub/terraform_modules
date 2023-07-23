@@ -1,6 +1,7 @@
 ---
 - name: Install packages and Docker
   hosts: all
+  user: ubuntu
   become: true
   tasks:
     - name: Install packages

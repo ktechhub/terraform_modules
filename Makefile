@@ -15,3 +15,5 @@ tf-apply:
 tf-destroy:
 	terraform destroy
 
+ansible-apply:
+	ansible-playbook -i ansible/hosts ansible/playbook.yml

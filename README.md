@@ -69,6 +69,11 @@ Apply
 make tf-apply
 ```
 
+Apply Ansible Configs
+```sh
+make ansible-apply
+```
+
 Destroy
 ```sh
 make tf-destroy
