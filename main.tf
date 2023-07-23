@@ -17,6 +17,19 @@ module "sg" {
   workspace = var.workspace
 }
 
+module "ig" {
+  source = "./modules/ig"
+  vpc_id = module.vpc.vpc_id
+}
+
+module "rt" {
+  source    = "./modules/rt"
+  workspace = var.workspace
+  vpc_id    = module.vpc.vpc_id
+  subnet_id = module.subnet.subnet_id
+  ig_id     = module.ig.ig_id
+}
+
 module "ec2" {
   source         = "./modules/ec2"
   subnet_id      = module.subnet.subnet_id
