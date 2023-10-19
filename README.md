@@ -1,3 +1,14 @@
+**Table of Contents** 
+
+- [terraform\_modules](#terraform_modules)
+  - [Key Concepts](#key-concepts)
+  - [Folder](#folder)
+  - [.env file](#env-file)
+  - [Running makefile](#running-makefile)
+  - [Precommit](#precommit)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # terraform_modules
 Terraform Modules are a powerful feature that allows you to create reusable and shareable configurations in Terraform. A module is a collection of Terraform resources, data sources, variables, outputs, and other components that work together to create a specific set of infrastructure resources. Modules enable you to encapsulate and abstract away complex configurations, making it easier to manage and maintain your infrastructure as code.
 
